@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head lang="hu-HU">
+        <link href="stilus.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Nyilvántartó</title>
+       
+    </head>
+    <body>
+        <header>
+            <img id="kepa" src="banner.jpg" alt=""/>
+        </header>
+        <div id="keret">
+            <div id="a">
+                <h2>Menüpontok</h2>
+                <ul>
+                    <li><a href="uj.html"><img class="kepb" src="haz.png" alt=""/>ÚJ</a></li> 
+                    <li><a href="keres.html">Keresés</a></li>
+                    <li><a href=#>Módosítás</a></li> 
+                    <li><a href=#>Törlés</a></li>                    
+                </ul>
+            </div>
+            <div id="b"> 
+                <form id="formc" name="urlap" action="modositfeldolgoz.php" method="post">
+                    <label for="mod">módosítandó (oid):</label>
+                    <input type="text" name="mod" id="mod" required/>
+                     <label for="n">nev:</label>
+                    <input type="text" name="n" id="n"/>
+                     <label for="sz">szakterulet:</label>
+                    <input type="text" name="sz" id="sz"/>
+                     <label for="mu">mukodesi_azonosito: </label>
+                    <input type="text" name="mu" id="mu"/>
+                     <label for="e">email:</label>
+                    <input type="email" name="e" id="e"/>
+                     <label for="t">tel:</label>
+                    <input type="text" name="t" id="t"/>
+                     <label for="ugy">ugyeleti oraszam:</label>
+                    <input type="text" name="ugy" id="ugy"/>
+                    </br>
+                    
+                    <button>
+                        <img class="kepb" src="modosit.png" alt=""/>                       
+                    </button>
+                </form> 
+            </div>
+            <div id="c"> b</div>           
+        </div>
+        <footer>
+            <table id="tabla">
+                <tr>
+                    <td id="f1">
+                        <img id="logo" src="logo.jpg" alt=""/>
+                    </td>
+                    <td id="f2"><p>9451 Ebergőc Petőfi Sándor utca 15.</br>
+                            Fő bejárat: Somló utca felől</p></td>                   
+                </tr>               
+            </table>
+        </footer>
+    </body>
+</html>
+

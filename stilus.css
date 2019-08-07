@@ -1,0 +1,91 @@
+header {
+    background-color: #7FFF00;
+    text-align: center;
+}
+#kepa{
+    width: 900px;
+    height: 300px;
+}
+.kepb{
+    width: 15px;
+    height: 15px;
+}
+#keret{
+    width: 100%;
+}
+#a{
+    float:left;
+    width: 25%;
+    background-color: #7FFFD4;
+    height: 250px;
+}
+ul{
+    list-style-type: none;
+}
+#b{
+    float: left;
+    width: 40%;
+    background-color: #7FFFD4;
+    height: 250px;
+}
+#c{
+    float: left;
+    width: 35%;
+    background-color: #000000;
+    height: 250px;
+}
+footer{
+    background-color: #7FFF00;
+    color: #000000;
+    text-align: center;
+}
+#f1{
+    text-align: right;
+}
+#f2{
+    text-align: left;
+}
+#tabla{
+    width: 100%;
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+a:link{
+    color: #8B4513;
+}
+a:hover{
+    color: #F0FFFF;
+}
+a:visited{
+    color: #00008B;
+}
+#logo{
+    width: 200px;
+}
+#forma{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+label{
+    width: 35%;
+   float: left;
+}
+input{
+    padding-top: 5px;
+}
+button{
+    margin-left: 150px;
+}
+#formb{
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+}
+#formc{
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+}
+
